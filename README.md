@@ -9,12 +9,12 @@ One concern for clinicians when searching for research papers is whether they ar
 Nov 25, 2023: ver.1 is now available.
 
 # Input examples and their outputs
-**Example 1**
-Input 
- Can PDE inhibitors help COPD with pulmonary hypertension?
-Output
+**Example 1** <br>
+Input  <br>
+ Can PDE inhibitors help COPD with pulmonary hypertension? <br>
+Output <br>
 ("phosphodiesterase inhibitors"[Title/Abstract] OR "PDE inhibitors"[Title/Abstract] OR "sildenafil"[Title/Abstract] OR "tadalafil"[Title/Abstract] OR "vardenafil"[Title/Abstract] OR "avanafil"[Title/Abstract]) AND ("pulmonary disease, chronic obstructive"[MeSH Terms] OR ("pulmonary"[All Fields] AND "disease"[All Fields] AND "chronic"[All Fields] AND "obstructive"[All Fields]) OR "chronic obstructive pulmonary disease"[All Fields] OR "COPD"[All Fields]) AND ("hypertension, pulmonary"[MeSH Terms] OR ("pulmonary"[All Fields] AND "hypertension"[All Fields]) OR "pulmonary hypertension"[All Fields])
 
-**Example 2**
-Input
-Are oral steroids for asthma associated with mortality?
+**Example 2** <br>
+Input <br>
+Are oral steroids for asthma associated with mortality? <br>
