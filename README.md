@@ -1,6 +1,6 @@
 # High-Sensitivity-PubMed-Query-Aid
 Crafts highly sensitive PubMed queries from Clinical Questions <br>
-[High-Sensitivity-PubMed-Query-Aid](https://chat.openai.com/g/g-3Ylvxx5GH-peco-summarizer)
+[High-Sensitivity-PubMed-Query-Aid](https://chat.openai.com/g/g-1ruVUSGPy-high-sensitivity-pubmed-query-aid)
 
 # Background
 One concern for clinicians when searching for research papers is whether they are overlooking anything. In other words, the sensitivity of the search formula they created might be low, leading to important papers being missed. Although becoming familiar with the PubMed search formula can reduce these oversights, typically these formulas are very long and require what is known as a craftsman's skill. I created this GPTs to make this process easy for anyone.
@@ -17,10 +17,16 @@ Nov 25, 2023: ver.1 is now available.
 
 **Example 2** <br>
 - Input <br>
-Are oral steroids for asthma associated with mortality? <br>
+Is BEL effective in SLE complicated by pulmonary hypertension and interstitial pneumonia? <br>
 - Output <br>
 ("belimumab"[Title/Abstract] OR "Benlysta"[Title/Abstract]) AND 
 ("lupus erythematosus, systemic"[MeSH Terms] OR ("lupus"[All Fields] AND "erythematosus"[All Fields] AND "systemic"[All Fields]) OR "systemic lupus erythematosus"[All Fields] OR "SLE"[All Fields]) AND 
 ("hypertension, pulmonary"[MeSH Terms] OR ("hypertension"[All Fields] AND "pulmonary"[All Fields]) OR "pulmonary hypertension"[All Fields]) AND 
 ("pneumonia, interstitial"[MeSH Terms] OR ("pneumonia"[All Fields] AND "interstitial"[All Fields]) OR "interstitial pneumonia"[All Fields])
+
+**Example 3** <br>
+- Input <br>
+Correlation between serum procalcitonin levels and severity of illness in community acquired pneumonia. <br>
+- Output <br>
+("procalcitonin"[Title/Abstract] OR "PCT"[Title/Abstract] OR "serum procalcitonin"[Title/Abstract]) AND ("severity of illness index"[MeSH Terms] OR ("severity"[All Fields] AND "illness"[All Fields]) OR "severity of illness"[All Fields]) AND ("pneumonia, bacterial"[MeSH Terms] OR ("pneumonia"[All Fields] AND "bacterial"[All Fields]) OR "community-acquired pneumonia"[All Fields] OR "CAP"[All Fields])
 
