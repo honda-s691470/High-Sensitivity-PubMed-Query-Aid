@@ -19,4 +19,8 @@ Nov 25, 2023: ver.1 is now available.
 - Input <br>
 Are oral steroids for asthma associated with mortality? <br>
 - Output <br>
+("belimumab"[Title/Abstract] OR "Benlysta"[Title/Abstract]) AND 
+("lupus erythematosus, systemic"[MeSH Terms] OR ("lupus"[All Fields] AND "erythematosus"[All Fields] AND "systemic"[All Fields]) OR "systemic lupus erythematosus"[All Fields] OR "SLE"[All Fields]) AND 
+("hypertension, pulmonary"[MeSH Terms] OR ("hypertension"[All Fields] AND "pulmonary"[All Fields]) OR "pulmonary hypertension"[All Fields]) AND 
+("pneumonia, interstitial"[MeSH Terms] OR ("pneumonia"[All Fields] AND "interstitial"[All Fields]) OR "interstitial pneumonia"[All Fields])
 
