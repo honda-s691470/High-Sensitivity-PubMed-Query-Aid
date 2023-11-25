@@ -1,5 +1,5 @@
 # High-Sensitivity-PubMed-Query-Aid
-Crafts highly sensitive PubMed queries from Clinical Questions <br>
+Crafts high-sensitivity PubMed queries from Clinical Questions <br>
 [High-Sensitivity-PubMed-Query-Aid](https://chat.openai.com/g/g-1ruVUSGPy-high-sensitivity-pubmed-query-aid)
 
 # Background
