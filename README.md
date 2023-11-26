@@ -16,13 +16,22 @@ Nov 25, 2023: ver.1 is now available.
 ("phosphodiesterase inhibitors"[Title/Abstract] OR "PDE inhibitors"[Title/Abstract] OR "sildenafil"[Title/Abstract] OR "tadalafil"[Title/Abstract] OR "vardenafil"[Title/Abstract] OR "avanafil"[Title/Abstract]) AND ("pulmonary disease, chronic obstructive"[MeSH Terms] OR ("pulmonary"[All Fields] AND "disease"[All Fields] AND "chronic"[All Fields] AND "obstructive"[All Fields]) OR "chronic obstructive pulmonary disease"[All Fields] OR "COPD"[All Fields]) AND ("hypertension, pulmonary"[MeSH Terms] OR ("pulmonary"[All Fields] AND "hypertension"[All Fields]) OR "pulmonary hypertension"[All Fields])
 
 **Example 2** <br>
-- Input <br>
+- Input/High-Sensitivity-PubMed-Query-Aid <br>
 Is BEL effective in SLE complicated by pulmonary hypertension and interstitial pneumonia? <br>
-- Output <br>
+- Output/High-Sensitivity-PubMed-Query-Aid <br>
 ("belimumab"[Title/Abstract] OR "Benlysta"[Title/Abstract]) AND 
 ("lupus erythematosus, systemic"[MeSH Terms] OR ("lupus"[All Fields] AND "erythematosus"[All Fields] AND "systemic"[All Fields]) OR "systemic lupus erythematosus"[All Fields] OR "SLE"[All Fields]) AND 
 ("hypertension, pulmonary"[MeSH Terms] OR ("hypertension"[All Fields] AND "pulmonary"[All Fields]) OR "pulmonary hypertension"[All Fields]) AND 
 ("pneumonia, interstitial"[MeSH Terms] OR ("pneumonia"[All Fields] AND "interstitial"[All Fields]) OR "interstitial pneumonia"[All Fields])
+- number of results<br>
+174 results (Nov 26 2023) <br>
+<br>
+- Input/GPT4 <br>
+Please provide a highly sensitive Pubmed query that will help us find articles on the following CQs: Correlation between serum procalcitonin levels and severity of illness in community acquired pneumonia.
+- Output/GPT4 <br>
+"Procalcitonin"[MeSH] AND "Community-Acquired Infections"[MeSH] AND "Pneumonia"[MeSH] AND ("severity of illness index"[MeSH] OR "disease severity"[Title/Abstract])
+- number of results<br>
+14 results (Nov 26 2023) <br>
 
 **Example 3** <br>
 - Input <br>
