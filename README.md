@@ -26,7 +26,6 @@ Is BEL effective in SLE complicated by pulmonary hypertension and interstitial p
 
 
 
-
 **Example 3** <br>
 - Input <br>
 Correlation between serum procalcitonin levels and severity of illness in community acquired pneumonia. <br>
@@ -41,4 +40,11 @@ Please provide a highly sensitive Pubmed query that will help us find articles o
 "Procalcitonin"[MeSH] AND "Community-Acquired Infections"[MeSH] AND "Pneumonia"[MeSH] AND ("severity of illness index"[MeSH] OR "disease severity"[Title/Abstract])
 - number of results<br>
 14 results (Nov 26 2023) <br>
+
+|             | Input                                                                                                                                                                                                                                                                                   | Output                                                                                                                                                                                                                                         | Number of Results          |
+|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
+| **Example 3** | Correlation between serum procalcitonin levels and severity of illness in community acquired pneumonia.                                                                                                                                                                                | ("procalcitonin"[Title/Abstract] OR "PCT"[Title/Abstract] OR "serum procalcitonin"[Title/Abstract]) AND ("severity of illness index"[MeSH Terms] OR ("severity"[All Fields] AND "illness"[All Fields]) OR "severity of illness"[All Fields]) AND ("pneumonia, bacterial"[MeSH Terms] OR ("pneumonia"[All Fields] AND "bacterial"[All Fields]) OR "community-acquired pneumonia"[All Fields] OR "CAP"[All Fields]) | 174 results (Nov 26 2023) |
+|             | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| ----------------------------|
+| Input/GPT4   | Please provide a highly sensitive Pubmed query that will help us find articles on the following CQs: Correlation between serum procalcitonin levels and severity of illness in community acquired pneumonia.                                                                      | "Procalcitonin"[MeSH] AND "Community-Acquired Infections"[MeSH] AND "Pneumonia"[MeSH] AND ("severity of illness index"[MeSH] OR "disease severity"[Title/Abstract])                                                                               | 14 results (Nov 26 2023)    |
+
 
