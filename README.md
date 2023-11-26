@@ -25,7 +25,7 @@ Is BEL effective in SLE complicated by pulmonary hypertension and interstitial p
 ("pneumonia, interstitial"[MeSH Terms] OR ("pneumonia"[All Fields] AND "interstitial"[All Fields]) OR "interstitial pneumonia"[All Fields])
 - number of results<br>
 174 results (Nov 26 2023) <br>
-<br>
+
 - Input/GPT4 <br>
 Please provide a highly sensitive Pubmed query that will help us find articles on the following CQs: Correlation between serum procalcitonin levels and severity of illness in community acquired pneumonia.
 - Output/GPT4 <br>
