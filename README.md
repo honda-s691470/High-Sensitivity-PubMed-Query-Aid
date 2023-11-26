@@ -26,21 +26,6 @@ Is BEL effective in SLE complicated by pulmonary hypertension and interstitial p
 
 
 
-**Example 3** <br>
-- Input <br>
-Correlation between serum procalcitonin levels and severity of illness in community acquired pneumonia. <br>
-- Output <br>
-("procalcitonin"[Title/Abstract] OR "PCT"[Title/Abstract] OR "serum procalcitonin"[Title/Abstract]) AND ("severity of illness index"[MeSH Terms] OR ("severity"[All Fields] AND "illness"[All Fields]) OR "severity of illness"[All Fields]) AND ("pneumonia, bacterial"[MeSH Terms] OR ("pneumonia"[All Fields] AND "bacterial"[All Fields]) OR "community-acquired pneumonia"[All Fields] OR "CAP"[All Fields])
-- number of results<br>
-174 results (Nov 26 2023) <br>
-
-- Input/GPT4 <br>
-Please provide a highly sensitive Pubmed query that will help us find articles on the following CQs: Correlation between serum procalcitonin levels and severity of illness in community acquired pneumonia.
-- Output/GPT4 <br>
-"Procalcitonin"[MeSH] AND "Community-Acquired Infections"[MeSH] AND "Pneumonia"[MeSH] AND ("severity of illness index"[MeSH] OR "disease severity"[Title/Abstract])
-- number of results<br>
-14 results (Nov 26 2023) <br>
-
             
 | **Example 3** | Input                                                                                                                                                                          | Output                                                                                                                                                                                                                                         | Number of Results          |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
