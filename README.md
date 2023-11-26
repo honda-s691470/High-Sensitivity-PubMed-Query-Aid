@@ -23,6 +23,15 @@ Is BEL effective in SLE complicated by pulmonary hypertension and interstitial p
 ("lupus erythematosus, systemic"[MeSH Terms] OR ("lupus"[All Fields] AND "erythematosus"[All Fields] AND "systemic"[All Fields]) OR "systemic lupus erythematosus"[All Fields] OR "SLE"[All Fields]) AND 
 ("hypertension, pulmonary"[MeSH Terms] OR ("hypertension"[All Fields] AND "pulmonary"[All Fields]) OR "pulmonary hypertension"[All Fields]) AND 
 ("pneumonia, interstitial"[MeSH Terms] OR ("pneumonia"[All Fields] AND "interstitial"[All Fields]) OR "interstitial pneumonia"[All Fields])
+
+
+
+
+**Example 3** <br>
+- Input <br>
+Correlation between serum procalcitonin levels and severity of illness in community acquired pneumonia. <br>
+- Output <br>
+("procalcitonin"[Title/Abstract] OR "PCT"[Title/Abstract] OR "serum procalcitonin"[Title/Abstract]) AND ("severity of illness index"[MeSH Terms] OR ("severity"[All Fields] AND "illness"[All Fields]) OR "severity of illness"[All Fields]) AND ("pneumonia, bacterial"[MeSH Terms] OR ("pneumonia"[All Fields] AND "bacterial"[All Fields]) OR "community-acquired pneumonia"[All Fields] OR "CAP"[All Fields])
 - number of results<br>
 174 results (Nov 26 2023) <br>
 
@@ -32,10 +41,4 @@ Please provide a highly sensitive Pubmed query that will help us find articles o
 "Procalcitonin"[MeSH] AND "Community-Acquired Infections"[MeSH] AND "Pneumonia"[MeSH] AND ("severity of illness index"[MeSH] OR "disease severity"[Title/Abstract])
 - number of results<br>
 14 results (Nov 26 2023) <br>
-
-**Example 3** <br>
-- Input <br>
-Correlation between serum procalcitonin levels and severity of illness in community acquired pneumonia. <br>
-- Output <br>
-("procalcitonin"[Title/Abstract] OR "PCT"[Title/Abstract] OR "serum procalcitonin"[Title/Abstract]) AND ("severity of illness index"[MeSH Terms] OR ("severity"[All Fields] AND "illness"[All Fields]) OR "severity of illness"[All Fields]) AND ("pneumonia, bacterial"[MeSH Terms] OR ("pneumonia"[All Fields] AND "bacterial"[All Fields]) OR "community-acquired pneumonia"[All Fields] OR "CAP"[All Fields])
 
