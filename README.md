@@ -6,6 +6,7 @@ Crafts high-sensitivity PubMed queries from Clinical Questions <br>
 One concern for clinicians when searching for research papers is whether they are overlooking anything. In other words, the sensitivity of the search formula they created might be low, leading to important papers being missed. Although becoming familiar with the PubMed search formula can reduce these oversights, typically these formulas are very long and require what is known as a craftsman's skill. I created this GPTs to make this process easy for anyone.
 
 # Update History
+Nov 26, 2023: Prompts were adjusted to reduce the frequency of work pausing in the middle of a task.
 Nov 25, 2023: ver.1 is now available.
 
 # Input examples and their outputs
